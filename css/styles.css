@@ -1,0 +1,375 @@
+<!--------STYLESHEET------>
+        
+        
+/* ------------CSS RESET--------------*/
+*{
+    padding: 0;
+    margin:0;
+    font-size: 100%;
+    line-height: 1em;
+}
+/*----------CONTAINER------------*/
+
+
+
+
+
+
+
+
+
+/*----------SCROLL BEHAVIOUR------*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*----------nav--------------------*/
+div#navigation{
+    width: 100%;
+    display: grid;
+    grid-template-columns:30% 70%;
+    text-align: left;
+    background-color:#005F9A;
+    position: fixed;
+    padding-left: 35px;
+    padding: 10px;
+   
+  
+}
+nav ul{
+    font-family: interstate, sans-serif;
+    text-align: right;
+    list-style-type: none;
+    max-width: 500px;
+    padding-top: 20px;
+    margin-left: 150px;
+}
+nav li{
+    display: inline;
+    padding-right:2.1em;
+    font-size: 2em;
+    color: #fff;
+    
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+
+    
+}
+nav a:hover{
+    color:#9AC4D8;
+    border-bottom: 1px dotted;
+    border-bottom: none;transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+
+    
+}
+
+
+/*---------------STYLING TEXT------------*/
+ 
+h1, h2, h3 {
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}     
+
+h1{
+    font-size: 3.65em;
+    padding-top: 20px
+    
+    
+}
+h2{
+    font-size: 3.2em 
+}
+h3{
+    font-size:2.7em;
+    padding: 20px
+   
+}
+body{
+    margin: 0 auto;
+    background-color: #fff;
+   
+  
+    
+}
+
+p{
+    font-family: interstate, sans-serif;font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+/*-----------About---------*/
+#about section{
+    padding: 10px;
+    margin-top: 0 auto
+    width:80%;
+    max-width: 900px;
+    margin: auto;
+
+    
+}
+#about p{
+    text-align: center;
+    padding: 20px;
+    width:75%;
+    max-width: 670px;
+    margin: auto;
+    
+   
+}
+#about h3{
+    text-align: center;
+    font-size: 2.3em;
+    padding-left: 40px;
+}
+
+
+/*----------LINK-------*/
+#about a:link{
+    text-decoration: none;
+    color:#000;
+    
+    
+   
+}
+#about a:hover{
+    color:#1A20FF;
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+  
+/*-------WORK--------*/
+
+#work h2{
+    text-align: center; background-color: #005F9A;
+    color:#fff;
+    width:100%;
+    padding: 30px;
+}
+#work p{
+    text-align: center;
+    width:80%;
+    max-width: 900px;
+    margin: auto;
+    
+}
+#work h3{
+    text-align: center;
+}
+
+ #worksection {
+
+    width:80%;
+    max-width: 900px;
+    margin: auto;
+    
+}
+ #worksection p{
+    text-align: center;
+}
+#worksection h3{
+    text-align: center;
+    margin-top: 50px
+}
+br{
+ line-height: 50px;
+}
+/*--------View buttton------*/
+
+#view button{
+    background-color: #3099C1; 
+    border:none ;
+    color: white;
+    padding: 20px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    border-radius: 30px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+   
+    
+   
+}
+#view button:hover{
+    background-color:#46B7EB;
+     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.24),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+#view button span{
+
+  display: inline-block;
+    transition: 0.5s;
+    
+}
+#view button span:after {
+  content: '\00bb';
+  position;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}
+
+#view button:hover span{
+padding-right: 25px;
+}
+
+#view button:hover span:after {
+  opacity: 1;
+    right: 0;
+}
+/*-----IMAGES------------*/
+#navigation img{
+    display: block;
+    max-width: 90px;
+    margin-left:0;
+    
+
+    
+}
+#navigation img:hover{
+     transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+}
+.socialmedia img{
+    max-width: 100%;
+    padding: 70px;
+    display: block;
+    margin: 0 auto;
+    
+}
+    
+    
+
+#about img{
+   display: block;
+    margin: 0 auto;
+    padding-left: 30px;
+    margin-top: 100px;
+   
+ 
+    
+}
+#work img{
+    display: block;
+    margin: 0 auto;
+    padding-left: 40px
+
+    
+}
+
+
+.mybrand img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+} 
+
+.sideproject img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.appdesign img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.infographic img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*-------CONTACT-----*/
+#say_hi{
+    font-family:interstate, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #3099C1;
+    color: #fff;
+    width: 100%;
+    padding-bottom:3px;
+
+    
+    
+}
+
+footer h2{
+    text-align: center;
+    font-size: 2.7em;
+    margin-bottom: 0;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+
+footer p{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width:55%;
+    margin-top: 50px;
+    font-size: 2.1em
+
+    
+    
+}
+#say_hi a:link{
+    text-decoration: none;
+    color:#fff;
+}
+#say_hi a:hover{
+    color:#1A20FF;
+    border-bottom: none;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.socialmedia{
+    background-color: #3099C1;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: block;
+}
+.socialmedia ul{
+    list-style: none;
+    text-align: center;
+    
+
+    
+}
+.socialmedia li{
+    display: inline-block;
+    margin-right: 110px;
+
+}
+.socialmedia a:link{
+    border-bottom: none;
+}
+.socialmedia a:hover img{
+    border-bottom: none;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.3);
+}

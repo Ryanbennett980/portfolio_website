@@ -30,7 +30,7 @@ div#navigation{
     display: grid;
     grid-template-columns:30% 70%;
     text-align: left;
-    background-color:#005F9A;
+    background-color:#2141F2;
     position: fixed;
     padding-left: 35px;
     padding: 10px;

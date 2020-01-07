@@ -231,7 +231,10 @@ padding-right: 25px;
     right: 0;
 }
 /*-----IMAGES------------*/
+
+
 #navigation img{
+    
     display: block;
     max-width: 90px;
     margin-left:0;
@@ -243,7 +246,7 @@ padding-right: 25px;
      transition: all 0.5s ease-in-out;
     transform: scale(1.2);
 }
-}
+
 .socialmedia img{
     max-width: 100%;
     padding: 70px;
@@ -368,8 +371,10 @@ footer p{
 .socialmedia a:link{
     border-bottom: none;
 }
+
 .socialmedia a:hover img{
     border-bottom: none;
     transition: all 0.5s ease-in-out;
-    transform: scale(1.3);
+    transform: scale(1.5);
+    
 }
